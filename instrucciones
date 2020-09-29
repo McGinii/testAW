@@ -1,0 +1,9 @@
+1- creamos capitulos.html e imagenes.html
+2- dentro de los archivos creamos el esquema prinncipal de html
+3- cambiamos lo que tengamos que cambiar del esquema autogenerado por emmet
+4- movemos los h2 de capitulo al archivo capitulos.html
+5- movemos las imagenes al archivo imgenes.html
+6- creamos debajo de los enlaces de index.html 3 enlaces
+    Uno a imagenes.html
+    Uno a capitulos.html
+    Uno al elemento cap2 de capitulos.html

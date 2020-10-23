@@ -16,30 +16,55 @@
     }
     aside{
         width: 50px;
-        display: inline-block;
+        display: block;
         height: calc (100vh - 100px);
+        float: left;
     }
 
     aside > a{
         display: block;
-        width: auto;
+        width: 100%;
+        margin-top: 15px;
     }
 
     aside > a > img{
         width: 90%;
         display: block;
         margin: auto;
+        
     }
 
-    aside > a > p{
+    aside > a > span{
         display: none;
     }
 
-
     main{
         width: calc(100% - 50px);
-        display: inline-block;
+        display: block;
+        height: calc ( 100% - 100px );
+        float: right;
+        padding: 0.75rem
     }
+
+    section{
+
+        border: 1px solid black;
+        padding: 5px;
+        border-radius: 6px;
+        margin-bottom: 10px;
+    }
+    
+    section:last-of-type{
+        margin-bottom: 0;
+    }
+
+    section:nth-child(2n+1){
+        background-color: burlywood;
+    }
+    section:nth-child(2n){
+        background-color: darkgrey;
+    }
+
 }
 
 /* Version de escritorio*/

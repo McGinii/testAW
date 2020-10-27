@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: linen;
+}
+
+h1 {
+    text-align: center;
+    padding: 15px;
+}
+
+#tabla-flex {
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 33%;
+    margin: 80px;
+    margin-top: 0;
+    background-color: rosybrown;
+}
+
+#tabla-flex>div {
+    flex-basis: 33%;
+    flex-grow: 1;
+    padding: 5px;
+    border-style: solid;
+    border-color: black;
+}
+
+#tabla-flex>#celda {
+    flex-basis: 66.3%;
+}
+
+.azul {
+    color: blue;
+}
+
+.verde {
+    color: green;
+}
+
+.rojo {
+    color: red;
+}

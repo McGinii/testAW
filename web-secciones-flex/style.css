@@ -1,0 +1,78 @@
+/* version de móvil*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    background-color: mediumpurple;
+}
+
+#contenedor-flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-top: 88px;
+}
+
+aside, main, header, footer {
+    flex-basis: 100%;
+    flex-grow: 1;
+    padding: 15px;
+}
+
+header {
+    background-color: seagreen;
+    order: 1;
+    position: fixed;
+    padding: 15px;
+    width: 100%;
+}
+
+main {
+    background-color: peachpuff;
+    order: 2;
+}
+
+aside {
+    background-color: mediumspringgreen;
+    order: 3;
+}
+
+#aside1 {
+    order: 3;
+    background-color: lightslategray;
+}
+
+#aside2 {
+    order: 4;
+}
+
+footer {
+    background-color: lightskyblue;
+    order: 5;
+}
+
+/* versión para tablet*/
+
+@media (min-width:768px) {
+    aside {
+        flex-basis: auto;
+    }
+}
+
+/* versión de escritorio*/
+
+@media (min-width:1000px) {
+    #aside1 {
+        order: 2;
+    }
+    main {
+        order: 3;
+        flex-basis: 60%;
+    }
+    #aside2 {
+        order: 4;
+    }
+}

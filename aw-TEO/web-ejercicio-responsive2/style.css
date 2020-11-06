@@ -1,0 +1,75 @@
+/* Todos los elementos */
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Versión móvil */
+@media (max-width: 400px){
+    header{
+        background-color: khaki;
+        height: 50px;
+        width: 100%;
+    }
+    aside{
+
+        width: 50px;
+        display: block;
+        height: calc( 100vh - 100px );
+        float: left;
+    }
+
+
+    aside > a{
+        display: block;
+        width: 100%;
+        margin-top: 15px;
+    }
+
+    aside > a > img{
+        width: 90%;
+        display: block;
+        margin: auto;
+    }
+    aside > a > span{
+        display: none;
+    }
+
+
+    main{
+        width: calc( 100% - 50px );
+        display: block;
+        height: calc( 100vh - 100px );
+        float: right;
+        padding: 0.75rem;
+        
+    }
+    section{
+        border: 1px solid black;
+        padding: 5px;
+        border-radius: 5px;
+        margin-bottom: 10px;
+    }
+    section:last-of-type{
+        margin-bottom: 0;
+    }
+
+    main > section:nth-of-type(odd){
+        background-color: lavender;
+    }
+
+    footer{
+        
+    }
+}
+
+
+
+
+
+/* Versión de escritorio */
+@media (min-width: 401px){
+    header{
+        background-color: lightgrey;
+    }
+}

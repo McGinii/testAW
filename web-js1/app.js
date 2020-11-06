@@ -40,6 +40,7 @@ multilinea*/
 
 
 // Tipo boolano
+// true o false
 // operaciones lógicas && ||
 
 // Y

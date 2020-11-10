@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: darkseagreen;
+}
+
+h1 {
+    text-align: center;
+    padding: 15px;
+}
+
+#tabla-flex {
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 60%;
+    margin: 80px;
+    margin-top: 0;
+    background-color: lightblue;
+}
+
+#tabla-flex>h4 {
+    flex-basis: 16.6%;
+    flex-grow: 1;
+    padding: 5px;
+    background-color: lightblue;
+    border-style: solid;
+    border-color: black;
+    text-align: center;
+}
+
+#tabla-flex>div {
+    flex-basis: 16.666%;
+    flex-grow: 1;
+    padding: 5px;
+    border-style: solid;
+    border-color: black;
+}
+
+#recreo {
+    text-align: center;
+    padding: 15px;
+    
+}
+
+#comida {
+    text-align: center;
+    padding: 15px;
+    
+}
+
+.azul {
+    color: blue;
+}
+
+.verde {
+    color: green;
+}
+
+.rojo {
+    color: red;
+}
+
+#Nombre {
+    margin: 80px;
+}
+
+#EIE {
+    background-color: cadetblue;
+}

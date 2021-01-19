@@ -1,0 +1,31 @@
+nav {
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+a {
+    background-color: burlywood;
+    color: black;
+    padding: 2px 20px;
+}
+
+
+/* No toques las reglas de arriba, abre nuevas reglas debajo */
+
+
+/* 
+Convierte el nav en un contenedor tipo flex, de manera que los enlaces
+se distribuyan de manera homogénea a lo largo del nav. Los enlaces tienen que estar separados
+el mismo espacio.
+*/
+
+nav {
+    border-style: solid;
+    display: flex;
+    margin: 1%;
+    flex-direction: row;
+    margin-right: 1%;
+    justify-content: space-around;
+    width: 97%;
+}

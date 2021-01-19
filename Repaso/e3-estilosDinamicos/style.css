@@ -1,0 +1,62 @@
+* {
+    padding: 1%;
+    margin: 10px;
+    box-sizing: border-box;
+}
+
+aside {
+    padding: 5px;
+    width: 25%;
+    max-width: 200px;
+    background-color: beige;
+}
+
+
+/* aplica las siguientes reglas a todos los enlaces que sean hijos directos del aside*/
+
+
+/* 
+- Texto centrado.
+- Quita el subrayado.
+- Cambia el color de fondo.
+- Ancho el 80% de su padre.
+- Céntralos dentro del aside con un margen automático
+- Sepáralos con un margen superior de 5px.
+- Color de texto negro.
+- Añade un borde de 2px de estilo línea continua de color negro
+*/
+
+aside>a {
+    text-align: center;
+    text-decoration: none;
+    width: 80%;
+    margin: auto;
+    margin-top: 5px;
+    text-decoration-color: black;
+    border-style: solid;
+    border-color: black;
+    display: flex;
+    background-color: lightskyblue;
+}
+
+
+/* Crea una regla CSS que que modifique el estilo del elemento con id link1. */
+
+
+/* Invierte los colores de texto y fondo. */
+
+
+/* Crea una regla CSS que modifique el estilo a los elementos de la clase tipoA */
+
+
+/* 
+   Ancho de borde 4px 
+   Bordes redondeados con un radio de 5px
+   
+*/
+
+
+/* Crea una regla que modifique el estilo al pasar por encima con el raton de los enlaces de la clase tipoB */
+
+
+/* Cambiar color de fondo a blanco */

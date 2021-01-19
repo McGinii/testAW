@@ -1,0 +1,12 @@
+Crea una página web que tenga una tabla en el body como la que se ve en Modelo.png
+Consideraciones: 
+ - CV es una abreviatura de Caballos Vapor
+ - ptas es una abreviatura de Pesetas
+ - La tabla tiene 3 secciones, cabecera, cuerpo y pie.
+ - La tabla debe ocupar un acho de 300px
+ - El estilo de las celdas de los modelos (fondo verde), se aplica mediante una clase común.
+ - El estilo de las celdas de encabezado se aplica con selector de elemento.
+ - Acordaos de juntar los bordes adyacentes.
+ - Centrad la tabla en el body con un margen automático
+ - Centrad el texto de todas las celdas (normales y de encabezado) usando la misma regla
+ - La celda del pie está alineada a la derecha y SEAT España es un enlace a https://www.seat.es/
